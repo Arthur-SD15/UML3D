@@ -474,6 +474,38 @@ footer .social a:hover{
   text-align: left;
 }
 
+#realizacao {
+  background: var(--body-color);
+  padding: 4rem 0;
+}
+
+#realizacao .container {
+  text-align: center;
+}
+
+#realizacao .title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.apoiadores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.apoiador img {
+  max-width: 100px;
+  height: auto;
+}
+
+.apoiador p {
+  font-size: 0.875rem;
+  color: var(--text-color);
+  margin-top: 1rem;
+}
+
 @media (min-width: 1200px) {
   .esq{
     text-align: right;
