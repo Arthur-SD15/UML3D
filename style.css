@@ -35,6 +35,7 @@ p{
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 img {
@@ -508,6 +509,37 @@ footer .social a:hover{
   margin-top: 1rem;
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #000; 
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid #000; 
+}
+th {
+  background-color: #f2f2f2;
+  border-width: 2px; 
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.centered-cell {
+  text-align: center; 
+  vertical-align: middle; 
+  height: 100%; 
+}
+
+.centered-cell img {
+  margin: 0 auto;
+  display: block;
+}
+
 @media (min-width: 1200px) {
   .esq{
     text-align: right;
@@ -624,39 +656,3 @@ footer .social a:hover{
     --subtitle-font-size: 1.125rem;
   }
 }
-
-
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  border: 1px solid #000; /* Adicione uma borda à tabela */
-}
-th, td {
-  padding: 8px;
-  text-align: left;
-  vertical-align: top;
-  border: 1px solid #000; /* Adicione uma borda às células */
-}
-th {
-  background-color: #f2f2f2;
-  border-width: 2px; /* Torna a borda nas células de cabeçalho mais espessa */
-}
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.centered-cell {
-  text-align: center; /* Centraliza horizontalmente */
-  vertical-align: middle; /* Centraliza verticalmente */
-  height: 100%; /* Isso é importante para alinhar verticalmente */
-}
-
-/* Opcional: para alinhar o conteúdo horizontalmente dentro da célula */
-.centered-cell img {
-  margin: 0 auto;
-  display: block;
-}
-
-a { color: inherit; } 
