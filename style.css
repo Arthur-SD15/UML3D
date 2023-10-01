@@ -29,6 +29,10 @@ html {
   scroll-behavior: smooth;
 }
 
+p{
+  text-align: justify;
+}
+
 a {
   text-decoration: none;
 }
@@ -654,3 +658,5 @@ img {
   margin: 0 auto;
   display: block;
 }
+
+a { color: inherit; } 
