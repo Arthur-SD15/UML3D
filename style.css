@@ -540,6 +540,17 @@ img {
   display: block;
 }
 
+.imagem-classe {
+  max-width: 40%;
+  height: auto; /* Mantém a proporção de altura/largura da imagem */
+  display: flex;
+  justify-content: center; /* Alinhar horizontalmente no centro */
+  align-items: center; /* Alinhar verticalmente no centro */
+  text-align: center;
+}
+
+
+
 @media (min-width: 1200px) {
   .esq{
     text-align: right;
