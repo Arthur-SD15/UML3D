@@ -542,14 +542,12 @@ img {
 
 .imagem-classe {
   max-width: 40%;
-  height: auto; /* Mantém a proporção de altura/largura da imagem */
+  height: auto; 
   display: flex;
-  justify-content: center; /* Alinhar horizontalmente no centro */
-  align-items: center; /* Alinhar verticalmente no centro */
+  justify-content: center; 
+  align-items: center; 
   text-align: center;
 }
-
-
 
 @media (min-width: 1200px) {
   .esq{
