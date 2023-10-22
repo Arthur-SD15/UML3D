@@ -2,6 +2,8 @@
   --header-height: 4.5rem;
   --hue: 159;
   --base-color: hsl(210, 36%, 30%);
+  --base-color-err: hsl(0, 64%, 53%);
+  --base-color-certo: hsl(134, 64%, 53%);
   --base-color-linear: hsla(209, 73%, 64%, 0.43);
   --base-color-before: hsla(209, 31%, 44%, 0.874);
   --title-color: hsl(var(--hue) 41% 10%);
@@ -82,6 +84,95 @@ body {
   font: 700 1.31rem var(--title-font);
   color: black;
 }
+
+.image.priespec {
+  text-align: center; 
+}
+
+.image.priespec img {
+  display: block;
+  margin: 0 auto; 
+  max-width: 35%; 
+}
+
+#home .image.priespec::before {
+  content: "";
+  height: 100%;
+  width: 45%;
+  background: var(--base-color-before);
+  position: absolute;
+  left: 25%; 
+  top: -10%;
+  z-index: 0;
+}
+
+.image.priespecsolo {
+  text-align: center; 
+}
+
+.image.priespecsolo img {
+  display: block;
+  margin: 0 auto; 
+  max-width: 35%; 
+}
+
+#home .image.priespecsolo::before {
+  content: "";
+  height: 100%;
+  width: 45%;
+  background: var(--base-color-err);
+  position: absolute;
+  left: 25%; 
+  top: -10%;
+  z-index: 0;
+}
+
+
+
+
+
+.image.priespecerr {
+  text-align: center; 
+}
+
+.image.priespecerr img {
+  display: block;
+  margin: 0 auto; 
+  max-width: 50%; 
+}
+
+#home .image.priespecerr::before {
+  content: "";
+  height: 100%;
+  width: 45%;
+  background: var(--base-color-err);
+  position: absolute;
+  left: 25%; 
+  top: -10%;
+  z-index: 0;
+}
+
+.image.priespecerto {
+  text-align: center; 
+}
+
+.image.priespecerto img {
+  display: block;
+  margin: 0 auto; 
+  max-width: 50%; 
+}
+
+#home .image.priespecerto::before {
+  content: "";
+  height: 100%;
+  width: 45%;
+  background: var(--base-color-certo);
+  position: absolute;
+  left: 25%; 
+  top: -10%;
+  z-index: 0;
+}
+
 
 .img {
   height: 55px;
